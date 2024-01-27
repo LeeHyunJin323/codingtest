@@ -1,0 +1,25 @@
+package codingtest.ct.week01;
+
+public class Ex0105 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 3;
+		// if 는 범위
+		// switch는 범위 x 떨어지는 문자나 문자열 , 정수 여야만 한다.
+		switch(i) {
+		case 1:
+			System.out.println("1");
+		case 2:
+			System.out.println("2");
+		case 3:
+			System.out.println("3분기");
+			
+		case 4:
+			System.out.println("4분기");
+		default:
+			System.out.println("알 수 없습니다.");
+		}
+	}
+
+}

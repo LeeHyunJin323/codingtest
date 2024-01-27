@@ -1,0 +1,16 @@
+package codingtest.ct.week01;
+
+public class Ex0106 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i = 0;
+		for(;; ) {
+			i++;
+			System.out.println(i);
+		}
+		
+	}
+
+}
