@@ -1,0 +1,33 @@
+package codingtest.ct.week01;
+
+public class Ex0116 {
+
+	public static void main(String[] args) {
+		/*
+		 * 1차원 배열 선언
+		 * byte ~ int = 0 , long = 0L  ,float = 0.0F , double = 0.0
+		 * boolean = false 
+		 * class , object = null;
+		 * 
+		 * 
+		 */
+		
+		// 배열 선언
+	
+		int[] a;
+		int b[];
+		
+		// 1차원 배열값 초기화
+		
+		char[] c= {'A','B','C'}; // 수정은 가능하나 늘릴수없음 (add 이런거 없음)
+		
+		int d[] = new int[3];
+		
+		System.out.println();
+
+		System.out.println(c[1]);
+	
+
+	}
+
+}

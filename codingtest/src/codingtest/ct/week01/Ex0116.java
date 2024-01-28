@@ -1,0 +1,65 @@
+package codingtest.ct.week01;
+
+public class Ex0116 {
+
+	public static void main(String[] args) {
+		/*
+		 * 1차원 배열 선언
+		 * byte ~ int = 0 , long = 0L  ,float = 0.0F , double = 0.0
+		 * boolean = false 
+		 * class , object = null;
+		 * 
+		 * 
+		 */
+		
+		// 배열 선언
+	
+//		int[] a;
+//		int b[];
+//		
+//		// 1차원 배열값 초기화
+//		
+//		char[] c= {'A','B','C'}; // 수정은 가능하나 늘릴수없음 (add 이런거 없음)
+//		
+//		int d[] = new int[3];
+//		
+//		System.out.println();
+//
+//		System.out.println(c[1]); //B
+//		
+//		d[0]=1;
+//		d[1]=2;
+//		d[2]=3;
+//		
+//		System.out.println(d[2]); // 3
+//		
+//		float f[] = new float [] {1.2F,2.3F,3.4F}; // -> 값이 바로 들어감
+//		 // 힙으로 값이 감 
+//		f[2] = 4.3F; // 이런식으로 수정은 가능 하지만 add같은걸로 뒤에 추가 x
+		
+		
+		int[] score = new int[10];
+		for(int i = 0; i<10; i++)
+		{
+			score[i] = i+1;
+			System.out.println(score[i]);
+		}
+		
+		int sum;
+		sum = 0;
+		
+		for(int j=0; j<score.length; j++)  // score.length -> 배열의 길이 -> 클래스가 아니기에 length만 
+			                               //  , String일경우 클래스이기 때문에 length() 
+		{
+			sum += score[j];
+			
+		}
+		System.out.println(sum);
+		
+		
+		
+		
+		
+	}
+
+}
