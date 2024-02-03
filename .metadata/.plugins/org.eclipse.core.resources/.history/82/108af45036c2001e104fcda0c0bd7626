@@ -1,0 +1,29 @@
+package codingtest.ct.week02;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Ex0203 {
+	public static void main(String[] args) {
+		// Integer 는 null 도 받을 수 있음. 
+		// List는 일단 객체만 받을 수 있음
+		// Integer는 객체임
+		List<String> list = new ArrayList<>();
+		list.add("A");
+
+
+		
+		System.out.println(list.toString()+","+list.size());
+		list.add("B");
+		list.add("D");
+		System.out.println(list.toString()+","+list.size());
+		list.add(2,"C"); // 3번째에 C를 넣음
+		list.add("Fㄴ");
+		System.out.println(list.toString()+","+list.size());
+		
+		
+		
+
+	}
+
+}
